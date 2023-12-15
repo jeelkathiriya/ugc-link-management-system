@@ -60,3 +60,65 @@
     background-color: #FFB5A7 !important;
     color: black !important;
 }
+
+
+/*
+# Media Queries
+*/
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .card.mx-5{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    h5.card-title.py-1.m-0.fw-semibold {
+        font-size: 1rem;
+    }
+
+    p.card-text.py-1.fw-light {
+        font-size: 0.85rem;
+    }
+
+    a.btn.btn-primary.w-100.card-btn {
+        font-size: 0.80rem;
+    }
+
+    .pt-2-responsive {
+        padding-top: 0.5rem!important;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .card.mx-5{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    } 
+
+    h5.card-title.py-1.m-0.fw-semibold {
+        font-size: 1.15rem;
+    }
+
+    p.card-text.py-1.fw-light {
+        font-size: 0.90rem;
+    }
+
+    a.btn.btn-primary.w-100.card-btn {
+        font-size: 0.90rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .card.mx-5{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
